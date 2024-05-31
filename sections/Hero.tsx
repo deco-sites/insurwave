@@ -74,7 +74,7 @@ export default function HeroFlats({
               }}
             >
             </div>
-            <p class="text-lg md:text-md leading-[150%]">
+            <p class="text-lg md:text-md leading-[150%] font-kern">
               {description}
             </p>
             <div class="flex items-center gap-3">

@@ -7,6 +7,10 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      fontFamily: {
+        'tobias': ['"tobias"', 'serif'],
+        'kern': ['"kern"', 'sans-serif'],
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

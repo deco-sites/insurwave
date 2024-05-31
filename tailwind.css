@@ -4,6 +4,30 @@
 
 @layer base {
 
+  @font-face {
+    font-family: 'tobias';
+    font-style: swap;
+    font-weight: 100;
+    font-display: display;
+    src: url(/fonts/tobias_light.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'kern';
+    font-style: swap;
+    font-weight: 100;
+    font-display: display;
+    src: url(/fonts/kern_standard_light.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'kern';
+    font-style: swap;
+    font-weight: 400;
+    font-display: display;
+    src: url(/fonts/kern_standard_regular.woff2) format('woff2');
+  }
+
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
