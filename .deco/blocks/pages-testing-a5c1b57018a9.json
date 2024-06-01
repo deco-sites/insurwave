@@ -3,7 +3,154 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/Header.tsx"
+      "__resolveType": "site/sections/Header.tsx",
+      "notification": {
+        "description": "Turbulence ahead: how geopolitics is impacting aviation insurance",
+        "href": "https://insurwave.com/blog/insights/turbulence-ahead-how-geopolitics-is-impacting-aviation-insurance",
+        "textLink": "Read the article"
+      },
+      "logoSvg": "Logo",
+      "navigation": {
+        "links": [
+          {
+            "label": "Product",
+            "dropdown": {
+              "side": "right",
+              "imageContainer": {
+                "href": "#",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/ca31f07f-f4a8-4ab3-901a-c8031e2a380b",
+                "description": "Our platform is designed with the insurance buyer front and centre. Consolidate and visualise your insurance data to make smarter risk transfer decisions.",
+                "title": "<a class=\"flex items-center gap-1 group text-base\" href=\"/product\">Product Overview<span class=\"transition group-hover:translate-x-0.5\"><svg height=\"20\" width=\"20\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\"><path d=\"M27.7 10.947C26.632 8.814 26 6.717 26 5h2c0 1.283.492 3.06 1.488 5.053.987 1.973 2.43 4.081 4.242 6.013C37.364 19.944 42.37 23 48 23v2c-5.63 0-10.635 3.056-14.27 6.934-1.811 1.932-3.255 4.04-4.242 6.013C28.492 39.94 28 41.717 28 43h-2c0-1.717.633-3.814 1.7-5.947 1.075-2.152 2.631-4.419 4.57-6.487 2.607-2.78 5.955-5.251 9.812-6.566-3.857-1.315-7.205-3.786-9.812-6.566-1.939-2.068-3.495-4.335-4.57-6.487z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\"></path><path d=\"M0 23h48v2H0v-2z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\"></path></g></svg></span></a>"
+              },
+              "contentContainer": {
+                "links": [
+                  {
+                    "title": "Collect",
+                    "description": "All your insurance data in one place",
+                    "href": "/product/collect"
+                  },
+                  {
+                    "title": "Manage",
+                    "description": "Get back to what you do best",
+                    "href": "/product/manage"
+                  },
+                  {
+                    "title": "Visualise",
+                    "description": "Goodbye risk, Hello risk map",
+                    "href": "/product/visualise"
+                  },
+                  {
+                    "title": "Analyse",
+                    "description": "Own your risk, own your outcome",
+                    "href": "/product/analyse"
+                  },
+                  {
+                    "title": "Distribute",
+                    "description": "Stay connected",
+                    "href": "/product/distribute"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "label": "Solutions",
+            "dropdown": {
+              "side": "left",
+              "imageContainer": {
+                "href": "#",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/f7d067a7-6196-4e39-937e-bbf602c040ad",
+                "title": "<a class=\"bg-iw-hi-vis font-grotesk leading-5 px-1 text-base text-iw-industrial-green uppercase w-fit\" href=\"/blog/product/whats-new-improved-documents-additional-currencies-and-more\">Whats New</a>"
+              },
+              "contentContainer": {
+                "title": "<div class=\"bg-iw-industrial-green font-grotesk font-thin leading-5 px-1 text-base text-iw-hi-vis uppercase w-fit\">By Role</div>",
+                "links": [
+                  {
+                    "title": "Insurance Buyer",
+                    "description": "Collect and analyse data to make better risk transfer decisions and unlock a new insurance buying experience",
+                    "href": "/solutions/insurance-buyer"
+                  },
+                  {
+                    "title": "Insurance Broker",
+                    "description": "Enhance your insights with detailed, quality data and risk information to ensure your clients get the best deal",
+                    "href": "/solutions/brokers"
+                  },
+                  {
+                    "title": "Insurer",
+                    "description": "Take the heavy lifting out of the equation when it comes to data by automating time-consuming tasks so you can focus on what you do best",
+                    "href": "/solutions/insurers"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "label": "Customers",
+            "url": "/customers"
+          },
+          {
+            "label": "Resources",
+            "dropdown": {
+              "side": "left",
+              "imageContainer": {
+                "href": "#",
+                "videoURL": "https://insurwave.com/assets/LogoVideo.mp4"
+              },
+              "contentContainer": {
+                "links": [
+                  {
+                    "title": "Blog",
+                    "description": "Keep up to date with all things insurance, risk, and technology",
+                    "href": "/blog"
+                  },
+                  {
+                    "title": "Newsroom",
+                    "description": "Want to know what we ve been up to? Find out here",
+                    "href": "/newsroom"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "label": "Company",
+            "dropdown": {
+              "side": "left",
+              "imageContainer": {
+                "href": "#",
+                "videoURL": "https://insurwave.com/assets/LogoVideo.mp4"
+              },
+              "contentContainer": {
+                "links": [
+                  {
+                    "title": "About Us",
+                    "description": "Managing your risk data will never be the same",
+                    "href": "/about-us"
+                  },
+                  {
+                    "title": "Careers",
+                    "description": "Ride the wave and join Insurwave",
+                    "href": "/careers"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "buttons": [
+        {
+          "href": "/demo",
+          "text": "Book a demo",
+          "outline": false
+        },
+        {
+          "href": "https://platform.insurwave.com",
+          "text": "Log In",
+          "icon": "LogIn",
+          "outline": true
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
