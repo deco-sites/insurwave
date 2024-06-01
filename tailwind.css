@@ -28,9 +28,18 @@
     src: url(/fonts/kern_standard_regular.woff2) format('woff2');
   }
 
+  * {
+    scroll-behavior: smooth;
+  }
+
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
+  }
+
+  body {
+    font-family: 'kern', "sans-serif";
+    scroll-snap-align: start;
   }
 
   /** Remove default styles from input[type=number] */
