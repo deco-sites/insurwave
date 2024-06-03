@@ -2,10 +2,8 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface CTA {
-  id?: string;
   href: string;
   text: string;
-  outline?: boolean;
 }
 
 export interface Props {
@@ -18,83 +16,58 @@ export interface Props {
    * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
    */
   description?: string;
-  image?: ImageWidget;
-  placement?: "left" | "right";
-  cta?: CTA[];
+  topImageBackground?: ImageWidget;
+  bottomImageBackground?: ImageWidget;
+  videoLink?: string;
+  cta?: CTA;
 }
 
-const PLACEMENT = {
-  left: "flex-col text-left lg:flex-row-reverse",
-  right: "flex-col text-left lg:flex-row",
-};
-
 export default function HeroFlats({
-  title = "Click here to tweak this text however you want.",
+  title = "<p>There’s a <em>better way</em> to manage your risk data</p>",
   description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  image,
-  placement = "left",
-  cta = [
-    { id: "change-me-1", href: "/", text: "Change me", outline: false },
-    { id: "change-me-2", href: "/", text: "Change me", outline: true },
-  ],
+    "<p>Meet the new standard for intelligent risk management. Consolidate and visualise risk data, automate tasks and connect to your insurance providers.</p>",
+  topImageBackground = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/0ed54618-9017-4826-95ef-f003b7981a29',
+  bottomImageBackground = 'https://insurwave.com/assets/Home/HomeSectionVector.svg',
+  videoLink = 'https://iw-prod.directus.app/assets/250e3d13-d86a-41da-b10d-74f7f6777906#t=0.1',
+  cta = { href: "/demo", text: "BOOK A DEMO" },
 }: Props) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4">
-      <div class="flex flex-col items-center gap-8">
-        <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
-            image
-              ? PLACEMENT[placement]
-              : "flex-col items-center justify-center text-center"
-          } lg:py-36 gap-12 md:gap-20 items-center`}
-        >
-          {image && (
-            <Image
-              width={640}
-              class="w-full lg:w-1/2 object-fit"
-              sizes="(max-width: 640px) 100vw, 30vw"
-              src={image}
-              alt={image}
-              decoding="async"
-              loading="lazy"
-            />
-          )}
-          <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
-              image
-                ? "lg:w-1/2 lg:max-w-xl"
-                : "flex flex-col items-center justify-center lg:max-w-3xl"
-            }`}
-          >
-            <div
-              class="inline-block lg:text-[80px] text-4xl leading-none font-medium"
-              dangerouslySetInnerHTML={{
-                __html: title,
-              }}
-            >
-            </div>
-            <p class="text-lg md:text-md leading-[150%] font-kern">
-              {description}
-            </p>
-            <div class="flex items-center gap-3">
-              {cta?.map((item) => (
-                <a
-                  key={item?.id}
-                  id={item?.id}
-                  href={item?.href}
-                  target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
-                    item.outline && "btn-outline"
-                  }`}
-                >
-                  {item?.text}
-                </a>
-              ))}
-            </div>
-          </div>
+    <div class="relative pt-[108px]">
+      <div class="absolute top-0 left-0 right-0 sm:bottom-[40%] -sm:bottom-[20%] bg-iw-industrial-green overflow-hidden"></div>
+      <Image
+        class="absolute z-10 text-[transparent]"
+        alt={topImageBackground}
+        src={topImageBackground}
+        width={1920}
+        height={1080}
+        loading={'lazy'}
+        decoding={'async'}
+      />
+      <div class="text-center container mx-auto pt-20 pb-5 px-10 flex flex-col items-center space-y-8">
+        <h1 class="leading-tight text-[80px] -md:text-[48px] lg:text-[80px] font-tobias [&_em]:font-kern [&_em]:font-light [&_em]:not-italic [&_em]:text-iw-blue-bright text-iw-forecast z-40" dangerouslySetInnerHTML={{
+          __html: title
+        }} />
+        <h5 class="leading-tight text-[24px] tracking-[-0.48px] font-kern text-iw-forecast max-w-5xl z-20"  dangerouslySetInnerHTML={{
+          __html: description
+        }} />
+        <div class="w-full z-20">
+          <a href={cta.href}>
+            <button class="rounded-full text-sm p-2 px-4 font-grotesk uppercase transition ease-in-out duration-300 !bg-iw-blue-bright text-iw-industrial-green hover:!bg-iw-blue-shade mb-12 z-20 uppercase" type="button">{cta.text}</button>
+          </a>
+          <video controls={true} class="rounded-xl w-full" preload="auto">
+            <source src={videoLink} type="video/mp4" />
+          </video>
         </div>
       </div>
-    </nav>
+      <Image
+        class="absolute w-full z-10 sm:top-[55%] -sm:top-[75%] text-[transparent]"
+        alt={bottomImageBackground}
+        src={bottomImageBackground}
+        width={1920}
+        height={530}
+        loading={'lazy'}
+        decoding={'async'}
+      />
+    </div>
   );
 }

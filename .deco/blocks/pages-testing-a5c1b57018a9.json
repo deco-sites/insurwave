@@ -154,28 +154,117 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "title": "<p>There’s a <em>better way</em> to manage your risk data</p>",
+      "cta": {
+        "href": "/demo",
+        "text": "BOOK A DEMO"
+      },
+      "description": "<p>Meet the new standard for intelligent risk management. Consolidate and visualise risk data, automate tasks and connect to your insurance providers.</p>",
+      "topImageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/0ed54618-9017-4826-95ef-f003b7981a29",
+      "bottomImageBackground": "https://insurwave.com/assets/Home/HomeSectionVector.svg",
+      "videoLink": "https://iw-prod.directus.app/assets/250e3d13-d86a-41da-b10d-74f7f6777906#t=0.1"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "site/sections/PoweringSection.tsx",
+      "descriptionTop": "Powering the industry leaders reshaping the insurance market. From insurance buyers to brokers and insurers.",
+      "descriptionBottom": "and more...",
+      "cards": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/ab18723f-4097-4a69-a56d-c096835a7042"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/fd65e007-080d-4ffc-af76-eaaa475122d3"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/eb0a84e4-9416-4239-aebc-4c7f7d22aa7d"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/0951bbe6-251f-432d-96cc-07f99704c619"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/8dc00345-90db-478e-8232-dea05743c48c"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/6df3842c-f494-40d2-a5d7-96a67be7c3ba"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/0cbd69e8-b365-4b13-9ee7-fa8017369c54"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/8b044068-0ebe-4a5c-9faa-2c5913b8ee49"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/b2721a0b-0209-461c-b9a7-421c50adf33a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/ad0f535f-c036-4c48-ac4f-9419b0129438"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/412c3889-b189-4d8a-8343-54067bf47102"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/9564dbc5-6d8f-4b7a-805a-876af5926177"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "__resolveType": "site/sections/HelpFocusSection.tsx",
+      "description": "<p>We help you<em> focus</em> on what you do best</p>",
+      "firstImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/6ce01478-891e-4f91-9842-aaea2be1dbcf",
+      "secondImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/c7614b03-dec4-40cb-a6b2-4405a7e5cabc",
+      "thirdImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/167efcb8-0395-4413-94f1-fcabdce47900"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/TextSection.tsx",
+      "title": "<p>Turn your risk data into <em>better</em> decisions</p>",
+      "description": "<p>With real-time asset tracking, exposure monitoring and detailed reports, Insurwave elevates your decision-making and gives you clarity, unlike any tool you’ve used before.</p>"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "site/sections/Feature.tsx"
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx"
+      "__resolveType": "site/sections/TrioCards.tsx",
+      "title": "<p>Keep everyone connected</p>",
+      "description": "<p dir=\"ltr\">Insurers, brokers and corporates buying and selling risk benefit from an integrated insurance management experience.</p>",
+      "cards": [
+        {
+          "title": "Insurance Buyer",
+          "description": "<p>View historical performance and share renewal-ready data in one platform.</p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/6c3f8e9b-fe92-42f7-9f05-2c90d8e2e06b",
+          "cta": {
+            "href": "/solutions/insurance-buyer",
+            "text": "Key benefits for buyers"
+          }
+        },
+        {
+          "title": "Insurer",
+          "description": "<p>Get portfolio insights in seconds, identify trends and make better decisions.</p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/463005d9-0ab7-4ba3-a0cf-faebbb2c088e",
+          "cta": {
+            "href": "/solutions/insurers",
+            "text": "Key benefits for insurers"
+          }
+        },
+        {
+          "title": "Brokers",
+          "description": "<p>Optimise your workflow and rely on a single source of truth for your client’s data.</p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/4f667816-242a-444a-808b-9aa0771dc437",
+          "cta": {
+            "href": "/solutions/brokers",
+            "text": "Key benefits for brokers"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/Testimonial.tsx",
+      "title": "<p><em>Beyond </em>expectations</p>",
+      "subTitle": "<p dir=\"ltr\">Insurwave is driving the change asset holders were waiting for: streamlined operations, better risk transfer decisions and intelligent data management.</p>",
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/38ee312e-15d5-4ab0-8ff6-eec4bc6b41f8",
+      "text": "<span>“</span><span class=\"[&>*]:inline [&_em]:font-kern [&_em]:font-light [&_em]:not-italic [&_em]:text-iw-blue-bright\"><p>We have <em>automated </em>many of our internal processes and part of our interaction with the market. That’s how <em>Insurwave made it possible for us to be risk managers again</em> instead of insurance contract administrators.</p></span><span>”</span>",
+      "description": "<span class=\"\"><p class=\"font-grotesk uppercase text-base\">Lars Henneberg</p><p class=\"font-grotesk uppercase text-sm\">Vice President, Head of Risk Management, A.P. Møller-Mærsk</p></span>",
+      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/3023f307-eba4-42f9-985c-7503ba1c3f95",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/22269090-00bf-437a-8085-f88498c2f3ae"
     },
     {
       "__resolveType": "Footer"

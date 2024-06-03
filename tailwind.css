@@ -40,6 +40,7 @@
   body {
     font-family: 'kern', "sans-serif";
     scroll-snap-align: start;
+    background-color: #f0ebde;
   }
 
   /** Remove default styles from input[type=number] */

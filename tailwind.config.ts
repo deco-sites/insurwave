@@ -12,12 +12,12 @@ export default {
       '-lg': {'max': '1023px'},
       '-md': {'max': '767px'},
       '-sm': {'max': '639px'},
-      '3xl': {'min': '1919px'},
-      '2xl': {'min': '1535px'},
-      'xl': {'min': '1279px'},
-      'lg': {'min': '1023px'},
-      'md': {'min': '767px'},
-      'sm': {'min': '639px'},
+      'sm': {'min': '640px'},
+      'md': {'min': '768px'},
+      'lg': {'min': '1024px'},
+      'xl': {'min': '1280px'},
+      '2xl': {'min': '1536px'},
+      '3xl': {'min': '1920px'},
     },
     container: { center: true },
     extend: {
@@ -27,7 +27,8 @@ export default {
         'iw-industrial-green': '#002824',
         'iw-blue-shade': '#1473e4',
         'iw-hi-vis': '#e6f849',
-        'iw-fresh-paint': '#ffffff'
+        'iw-fresh-paint': '#ffffff',
+        'iw-forecast': '#f0ebde'
       },
       fontFamily: {
         'tobias': ['"tobias"', 'serif'],
