@@ -23,7 +23,7 @@ export default function Feature({
   imageBackground
 }: Props) {
   return (
-    <div class="bg-iw-industrial-green overflow-hidden relative top-[-1px]">
+    <div class="bg-iw-industrial-green overflow-hidden relative top-[-2px]">
       <div class="text-center container mx-auto pb-40 px-10 flex flex-col items-center lg:pb-40">
         <div class="relative">
           <div class="w-full flex flex-col gap-20">

@@ -9,23 +9,45 @@ interface Props {
    * @default Click here to tweak this text however you want.
   */
   description?: string;
+  cta?: {
+    href: string,
+    text: string
+  }
 }
 
 export default function ContentSection({ 
-  title = '<p>Turn your risk data into <em>better</em> decisions</p>',
-  description = '<p>With real-time asset tracking, exposure monitoring and detailed reports, Insurwave elevates your decision-making and gives you clarity, unlike any tool you’ve used before.</p>'
+  title,
+  description = '<p dir="ltr">Designed to satisfy the needs of risk managers, engineered with the latest tech.</p>',
+  cta = {
+    href: '/product',
+    text: 'Product Overview'
+  }
 }: Props) {
   return (
-    <div class="bg-iw-industrial-green overflow-hidden">
-      <div class="text-center container mx-auto pb-20 py-40 px-10 flex flex-col items-center xl:pb-20 space-y-20 xl:space-y-40">
-        <div class="flex flex-col space-y-8 items-center">
-          <h1 class="leading-tight text-[80px] -md:text-[48px] lg:text-[80px] font-tobias [&_em]:font-kern [&_em]:font-light [&_em]:not-italic [&_em]:text-iw-hi-vis text-iw-fresh-paint" dangerouslySetInnerHTML={{
+    <div class="bg-iw-industrial-green overflow-hidden relative top-[-2px]">
+      <div class="text-center container mx-auto pb-40 px-10 flex flex-col items-center space-y-10">
+        {
+          title &&
+          <h2 class="leading-tight text-[80px] -md:text-[48px] lg:text-[80px] font-tobias [&_em]:font-kern [&_em]:font-light [&_em]:not-italic [&_em]:text-iw-hi-vis text-iw-fresh-paint" dangerouslySetInnerHTML={{
             __html: title
           }} />
+        }
+        {
+          description &&
           <h5 class="leading-tight text-[24px] tracking-[-0.48px] font-kern text-iw-fresh-paint font-thin max-w-5xl" dangerouslySetInnerHTML={{
             __html: description
           }} />
-        </div>
+        }
+        {
+          cta &&
+          <div>
+            <a href={cta.href}>
+              <button class="rounded-full text-sm p-2 px-4 font-grotesk uppercase transition ease-in-out duration-300 !bg-iw-hi-vis text-iw-industrial-green hover:!bg-iw-hi-vis-shade z-10 uppercase" type="button">
+                {cta.text}
+              </button>
+            </a>
+          </div>
+        }
       </div>
     </div>
   );

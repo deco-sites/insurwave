@@ -17,7 +17,7 @@ export default function TextSection({
 }: Props) {
   return (
     <div class="bg-iw-industrial-green overflow-hidden">
-      <div class="text-center container mx-auto pb-20 py-40 px-10 flex flex-col items-center xl:pb-20 space-y-20 xl:space-y-40">
+      <div class="text-center container mx-auto pb-20 py-40 px-10 flex flex-col items-center xl:pb-40 space-y-20 xl:space-y-40">
         <div class="flex flex-col space-y-8 items-center">
           <h1 class="leading-tight text-[80px] -md:text-[48px] lg:text-[80px] font-tobias [&_em]:font-kern [&_em]:font-light [&_em]:not-italic [&_em]:text-iw-hi-vis text-iw-fresh-paint" dangerouslySetInnerHTML={{
             __html: title
