@@ -47,10 +47,11 @@ export default function Feature({
           </div>  
           {
             imageBackground &&
-            <div id="background" class="hidden md:block absolute w-full h-full bg-no-repeat bg-contain -translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0" 
-              style={{
-                backgroundImage: 'url(' + imageBackground + ')'
-              }}></div>
+            <div id="background" class="hidden md:block absolute w-full h-full bg-no-repeat bg-contain translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0" 
+            style={{
+              backgroundImage: 'url(' + imageBackground + ')'
+            }}
+            ></div>
           }
         </div>
       </div>

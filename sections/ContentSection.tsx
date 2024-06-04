@@ -11,7 +11,7 @@ interface Props {
   description?: string;
 }
 
-export default function TextSection({ 
+export default function ContentSection({ 
   title = '<p>Turn your risk data into <em>better</em> decisions</p>',
   description = '<p>With real-time asset tracking, exposure monitoring and detailed reports, Insurwave elevates your decision-making and gives you clarity, unlike any tool you’ve used before.</p>'
 }: Props) {

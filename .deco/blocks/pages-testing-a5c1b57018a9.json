@@ -223,6 +223,27 @@
       "__resolveType": "site/sections/Feature.tsx"
     },
     {
+      "__resolveType": "site/sections/Feature.tsx",
+      "description": "<p><span style=\"color: rgb(255, 255, 255)\">Get a deep (and instant) understanding of your risk with the interactive risk map.</span></p>",
+      "title": "<p>Your risk in focus</p>",
+      "imageBackground": "<div id=\"background\"\r\n  class=\"hidden md:block absolute w-full h-full bg-no-repeat bg-contain translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0\"\r\n  style=\"background-image:url(https://iw-prod.directus.app/assets/834a754c-e3e0-4b0b-99ba-bbdd1e313501)\"></div>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/2661fd0a-83c4-418a-aee4-380204d8e957"
+    },
+    {
+      "__resolveType": "site/sections/Feature.tsx",
+      "title": "<p>Own your data</p>",
+      "description": "<p><span style=\"color: rgb(255, 255, 255)\">Unify all your risk data into one single source of truth that you control.</span></p>",
+      "imageBackground": "<div id=\"background\"\r\n  class=\"hidden md:block absolute w-full h-full bg-no-repeat bg-contain -translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0\">\r\n</div>",
+      "image": "https://iw-prod.directus.app/assets/da8d4e17-44b8-447b-8e07-240ab1f52905?quality=80"
+    },
+    {
+      "__resolveType": "site/sections/Feature.tsx",
+      "title": "<p>Act with confidence</p>",
+      "description": "<p><span style=\"color: rgb(255, 255, 255)\">View real-time asset location, coverage and policy changes.</span></p>",
+      "imageBackground": "<div id=\"background\"\r\n  class=\"hidden md:block absolute w-full h-full bg-no-repeat bg-contain translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0\"\r\n  style=\"background-image:url(https://iw-prod.directus.app/assets/13c45262-419b-4286-828a-1a2291cefc62)\"></div>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/680ada05-210d-497b-b968-738470ff93c0"
+    },
+    {
       "__resolveType": "site/sections/TrioCards.tsx",
       "title": "<p>Keep everyone connected</p>",
       "description": "<p dir=\"ltr\">Insurers, brokers and corporates buying and selling risk benefit from an integrated insurance management experience.</p>",
