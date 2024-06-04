@@ -291,7 +291,14 @@
       "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/22269090-00bf-437a-8085-f88498c2f3ae"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {}
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
