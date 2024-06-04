@@ -220,28 +220,31 @@
       "description": "<p>With real-time asset tracking, exposure monitoring and detailed reports, Insurwave elevates your decision-making and gives you clarity, unlike any tool you’ve used before.</p>"
     },
     {
-      "__resolveType": "site/sections/Feature.tsx"
+      "__resolveType": "site/sections/Feature.tsx",
+      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/a6ee0db5-3856-4ce3-b05e-91685fd8742d"
+    },
+    {
+      "__resolveType": "site/sections/Feature2.tsx",
+      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/d93a38b3-4a83-4488-afdd-6d8776ef23b9",
+      "description": "<p>Get a deep (and instant) understanding of your risk with the interactive risk map.</p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/a9048471-4182-43e5-9cce-164dd29790fd",
+      "title": "<p>Your risk in focus</p>"
     },
     {
       "__resolveType": "site/sections/Feature.tsx",
-      "description": "<p><span style=\"color: rgb(255, 255, 255)\">Get a deep (and instant) understanding of your risk with the interactive risk map.</span></p>",
-      "title": "<p>Your risk in focus</p>",
-      "imageBackground": "<div id=\"background\"\r\n  class=\"hidden md:block absolute w-full h-full bg-no-repeat bg-contain translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0\"\r\n  style=\"background-image:url(https://iw-prod.directus.app/assets/834a754c-e3e0-4b0b-99ba-bbdd1e313501)\"></div>",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/2661fd0a-83c4-418a-aee4-380204d8e957"
-    },
-    {
-      "__resolveType": "site/sections/Feature.tsx",
+      "description": "<p>Unify all your risk data into one single source of truth that you control.</p>",
       "title": "<p>Own your data</p>",
-      "description": "<p><span style=\"color: rgb(255, 255, 255)\">Unify all your risk data into one single source of truth that you control.</span></p>",
-      "imageBackground": "<div id=\"background\"\r\n  class=\"hidden md:block absolute w-full h-full bg-no-repeat bg-contain -translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0\">\r\n</div>",
       "image": "https://iw-prod.directus.app/assets/da8d4e17-44b8-447b-8e07-240ab1f52905?quality=80"
     },
     {
-      "__resolveType": "site/sections/Feature.tsx",
+      "__resolveType": "site/sections/Feature2.tsx",
       "title": "<p>Act with confidence</p>",
-      "description": "<p><span style=\"color: rgb(255, 255, 255)\">View real-time asset location, coverage and policy changes.</span></p>",
-      "imageBackground": "<div id=\"background\"\r\n  class=\"hidden md:block absolute w-full h-full bg-no-repeat bg-contain translate-x-1/2 lg:top-[14%] -lg:top-[16%] bottom-0\"\r\n  style=\"background-image:url(https://iw-prod.directus.app/assets/13c45262-419b-4286-828a-1a2291cefc62)\"></div>",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/680ada05-210d-497b-b968-738470ff93c0"
+      "description": "<p>View real-time asset location, coverage and policy changes.</p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/20a988c6-db80-44c8-8e1d-d54ac9e3a895",
+      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/62a2fed7-2dc0-4bc7-8e93-3cc88eb428ab"
+    },
+    {
+      "__resolveType": "site/sections/ContentSection.tsx"
     },
     {
       "__resolveType": "site/sections/TrioCards.tsx",
