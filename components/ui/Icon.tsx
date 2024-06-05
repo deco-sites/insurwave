@@ -46,7 +46,11 @@ export type AvailableIcons =
   | "Logo"
   | "ArrowRightSchema"
   | "ArrowBottomSchema"
-  | "LogIn";
+  | "LogIn"
+  | "WhiteLogo"
+  | "insurwaveYoutube"
+  | "insurwaveLinkedin"
+  | "pin";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
