@@ -291,7 +291,52 @@
       "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/22269090-00bf-437a-8085-f88498c2f3ae"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Latest on our blog",
+      "posts": [
+        {
+          "title": "How well do you understand your exposures?",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/a6232750-9992-48f1-ba0b-eb0d70f1ac85",
+          "date": "June 3, 2024",
+          "readingTime": "6 mins read",
+          "href": "/blog/insights/how-well-do-you-understand-your-exposures",
+          "tags": [
+            {
+              "text": "Insights",
+              "color": "#61aaff",
+              "href": "/blog/insights"
+            }
+          ]
+        },
+        {
+          "title": "Dynamic exposure monitoring: What are the opportunities?",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/bb77d1d5-97f7-4895-9e47-ca2b0ee60125",
+          "date": "May 23, 2024",
+          "readingTime": "6 mins read",
+          "href": "/blog/insights/dynamic-exposure-monitoring-what-are-the-opportunities",
+          "tags": [
+            {
+              "text": "Insights",
+              "color": "#61aaff",
+              "href": "/blog/insights"
+            }
+          ]
+        },
+        {
+          "title": "Managing risk with data-driven insurance solutions",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10579/e121a3d7-bd1c-4fe6-943b-a72edf7bf238",
+          "date": "May 20, 2024",
+          "readingTime": "21 mins read",
+          "href": "/blog/events/managing-risk-with-data-driven-insurance-solutions",
+          "tags": [
+            {
+              "text": "Events",
+              "color": "#e6f849",
+              "href": "/blog/events"
+            }
+          ]
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
